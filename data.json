@@ -1,0 +1,352 @@
+{
+  "updated": "2026-06-30",
+  "downloads": [
+    { "label": "دليل كتابة فصل المنهجية. أ/فاروق", "href": "files/Methodology Guide (AR).pdf" },
+    { "label": "IS Projects", "href": "files/IS Graduation Projects.pdf" },
+    { "label": "IT Projects", "href": "files/IT Graduation Projects.pdf" },
+    { "label": "SWE Projects", "href": "files/SWE Graduation Projects.pdf" },
+    { "label": "CS Projects", "href": "files/CS Graduation Projects.pdf" },
+    { "label": "NET Projects", "href": "files/NET Graduation Projects.pdf" },
+    { "label": "Proposal Template", "href": "files/Proposal Template.pdf" },
+    { "label": "دليل التقرير", "href": "files/Final Report Guidelines.pdf" },
+    { "label": "محاضرة كتابة المقترح الجزء الأول", "href": "https://drive.google.com/file/d/1Xwi1unY3aWTHe5zfTbmVRJv31s5J1b_9/view?usp=drive_link" },
+    { "label": "محاضرة كتابة المقترح الجزء الثاني", "href": "https://drive.google.com/file/d/1SLOCSdV1r74QkxG2d5aV9Wl4KiWwvM8n/view?usp=drive_link" },
+    { "label": "المناقشات و كيفية تقييم المشاريع", "href": "files/FinalDiscussions Dr Ghada.pdf" }
+  ],
+  "projects": [
+    {
+      "title": "Volux — Web-based volunteering platform to support Sudan's post-war recovery",
+      "department": "IS",
+      "supervisor": "د. هند الأمين & د. هند أحمد",
+      "committee": "أ. ابتهال نور الدين، د. أميمة فتح الرحمن، أ. آثار عبد المنعم"
+    },
+    {
+      "title": "Semantic Search Engine",
+      "department": "IS",
+      "supervisor": "أ. أمل صلاح",
+      "committee": "د. غادة شمو، أ. آثار عبد المنعم"
+    },
+    {
+      "title": "تطوير روبوت محادثة ذكي مدعوم بالذكاء الاصطناعي التوليدي للإجابة عن استفسارات الأنظمة والإجراءات الجامعية",
+      "department": "IS",
+      "supervisor": "د. يسرا الحكيم",
+      "committee": "د. هويدا علي، أ. ابتهال نور الدين، د. هلا صالح، أ. أزهري فضل السيد"
+    },
+    {
+      "title": "Integrated University Community",
+      "department": "IS",
+      "supervisor": "أ. ابتهال نور الدين",
+      "committee": "أ. آثار عبد المنعم، د. هلا صالح، أ. أمل صلاح"
+    },
+    {
+      "title": "منصة سفر Safar Sudan لحجز تذاكر الباصات بين مدن السودان والدفع الإلكتروني",
+      "department": "IS",
+      "supervisor": "د. فاروق عثمان",
+      "committee": "د. هلا صالح، د. الروضة عبد اللطيف، د. وفاء علي"
+    },
+    {
+      "title": "ERP Odoo System for Auctions Management Company with Remote Bidding Website",
+      "department": "IS",
+      "supervisor": "د. وفاء علي",
+      "committee": "د. الروضة عبد اللطيف، د. فاروق عثمان"
+    },
+    {
+      "title": "Curriculum's Flow — سير المقررات",
+      "department": "IS",
+      "supervisor": "د. الروضة عبد اللطيف",
+      "committee": "د. وفاء علي، د. فاروق عثمان"
+    },
+
+    {
+      "title": "تطوير متجر إلكتروني بنظام التقسيط للطلاب الجامعيين",
+      "department": "IT",
+      "supervisor": "د. ناظم عثمان",
+      "committee": "د. مروة الطيب، أ. اسيا المطري"
+    },
+    {
+      "title": "تطوير منصة شاحن لربط النقل البري بالتجارة والإنتاج في بيئة رقمية موحدة",
+      "department": "IT",
+      "supervisor": "د. فاروق عثمان",
+      "committee": "د. أميرة كامل"
+    },
+    {
+      "title": "AI-Powered Adaptive Learning Platform",
+      "department": "IT",
+      "supervisor": "د. وفاء فيصل",
+      "committee": "د. أميمة"
+    },
+    {
+      "title": "تطوير منصة إلكترونية لربط تجار وفنيي الطاقة الشمسية بالعملاء في ولاية الخرطوم",
+      "department": "IT",
+      "supervisor": "أ. اسيا المطري",
+      "committee": "د. سمية عبد المنعم"
+    },
+    {
+      "title": "إطار عمل متين للتعرف على العملات السودانية باستخدام الشبكات العصبية التلافيفية (CNN)",
+      "department": "IT",
+      "supervisor": "أ. اسيا المطري",
+      "committee": "د. غادة شمو، د. ناظم عثمان، د. أميمة"
+    },
+    {
+      "title": "أرشيف الذاكرة السودانية للحرب",
+      "department": "IT",
+      "supervisor": "د. سمية عبد المنعم",
+      "committee": "د. ناظم عثمان، د. رشا جلال، د. فاروق الشيخ"
+    },
+    {
+      "title": "تحليل مدى وعي أولياء الأمور بمخاطر الإنترنت",
+      "department": "IT",
+      "supervisor": "د. هويدا علي",
+      "committee": "د. وفاء فيصل"
+    },
+    {
+      "title": "منصة إلكترونية تعالج مشاكل العقارات من حيث العرض والطلب في السودان",
+      "department": "IT",
+      "supervisor": "د. رشا جلال",
+      "committee": "د. هند احمد"
+    },
+    {
+      "title": "منصة إلكترونية مبتكرة تربط أصحاب المشاريع السودانية مع مستثمرين وداعمين وجهات مانحة",
+      "department": "IT",
+      "supervisor": "د. غادة شمو",
+      "committee": "د. محسن زين العابدين، د. أميمة، أ. اسيا المطري"
+    },
+    {
+      "title": "OSINT Hub: A unified platform for processing dispersed OSINT tools",
+      "department": "IT",
+      "supervisor": "أ. مؤيد مبارك",
+      "committee": "د. رشا جلال، د. فاروق الشيخ"
+    },
+    {
+      "title": "نظام التصحيح الآلي للإجابات النصية باللغة العربية باستخدام تقنيات معالجة اللغات الطبيعية",
+      "department": "IT",
+      "supervisor": "د. هويدا علي",
+      "committee": "د. هلا صالح"
+    },
+    {
+      "title": "Facial Recognition System for Missing Persons Identification using ArcFace",
+      "department": "IT",
+      "supervisor": "د. وليد علي",
+      "committee": "د. سمية عبد المنعم، د. أميمة"
+    },
+    {
+      "title": "Intelligent College Timetable Generator System based on Genetic Algorithm",
+      "department": "IT",
+      "supervisor": "أ. سارة احمد",
+      "committee": "أ. سالي حسن"
+    },
+
+    {
+      "title": "Event and Conference Management Platform",
+      "department": "SWE",
+      "supervisor": "أ. فاروق عثمان محمد الشيخ",
+      "committee": "أ. أمل حسن فتح الرحمن، د. هند الأمين محمد، أ. هند أحمد محمد، أ. سارة أحمد محمد"
+    },
+    {
+      "title": "تطوير منصة رقمية للتسويق بالعمولة",
+      "department": "SWE",
+      "supervisor": "أ. فاروق عثمان محمد الشيخ",
+      "committee": "أ. سارة أحمد محمد عثمان، د. هند الأمين محمد، أ. هند أحمد محمد"
+    },
+    {
+      "title": "A Unified Online Payment Integration Platform for Sudan",
+      "department": "SWE",
+      "supervisor": "أ. سارة أحمد محمد عثمان",
+      "committee": "أ. زينب الحسن عيسى، أ. فاروق عثمان محمد الشيخ، د. هند الأمين محمد، أ. هند أحمد محمد"
+    },
+    {
+      "title": "تصميم وتطوير نظام إلكتروني لحجز تذاكر الطيران في السودان عبر وكالات السفر والسياحة (منصة عروض السفر بالطيران السوداني)",
+      "department": "SWE",
+      "supervisor": "أ. غازي هاشم عبد الرحمن",
+      "committee": "د. نهلة مرتضى أحمد، د. عفاف مدني محمد، أ. عفراء ابراهيم يوسف، أ. سارة أحمد محمد عثمان"
+    },
+    {
+      "title": "End To End Dishdasha Customization and Delivery Platform for Saudi Arabian Men",
+      "department": "SWE",
+      "supervisor": "أ. سارة أحمد محمد عثمان",
+      "committee": "أ. زينب الحسن عيسى، د. عفاف مدني محمد، د. نهلة مرتضى أحمد، أ. عفراء ابراهيم يوسف، أ. أمل حسن فتح الرحمن"
+    },
+    {
+      "title": "منصة فيديوهات تعليمية مصنفة لجميع مواد الشهادة السودانية",
+      "department": "SWE",
+      "supervisor": "أ. مؤيد مبارك عثمان بشير",
+      "committee": "د. نهلة مرتضى أحمد، د. عفاف مدني محمد، أ. سارة أحمد محمد عثمان، أ. أمل حسن فتح الرحمن"
+    },
+    {
+      "title": "نظام لبيع وشراء وإيجار العقارات",
+      "department": "SWE",
+      "supervisor": "أ. هند أحمد محمد",
+      "committee": "د. هند الأمين محمد، أ. فاروق عثمان محمد الشيخ، د. نهلة مرتضى أحمد، أ. عفراء ابراهيم يوسف"
+    },
+    {
+      "title": "Patient Appointment Management Platform for Healthcare Providers in Sudan",
+      "department": "SWE",
+      "supervisor": "أ. سمية عبد المنعم احمد",
+      "committee": "أ. أمل حسن فتح الرحمن، أ. فاروق عثمان محمد الشيخ، د. هند الأمين محمد، أ. هند أحمد محمد، أ. عفراء ابراهيم يوسف"
+    },
+    {
+      "title": "Aggrieved Support Website",
+      "department": "SWE",
+      "supervisor": "أ. أشواق محمد صالح",
+      "committee": "أ. سمية عبد المنعم احمد، أ. فاروق عثمان محمد الشيخ، د. نهلة مرتضى أحمد، د. هند الأمين محمد"
+    },
+    {
+      "title": "Detection and Filtering of Hate Speech in Social Media Platforms for Sudanese Dialects",
+      "department": "SWE",
+      "supervisor": "د. أميرة كامل ابراهيم، د. عفاف مدني محمد",
+      "committee": "د. الروضة عبد اللطيف، د. هدى جمال عبد الحميد، أ. هشام عبد الله منصور، د. هند الأمين محمد، د. وليد علي ميرغني"
+    },
+    {
+      "title": "AI-Based Building Damage Assessment in Post-War Sudan Using Deep Learning and Remote Sensing",
+      "department": "SWE",
+      "supervisor": "د. محمد خضر محمد نور",
+      "committee": "د. وليد علي ميرغني، د. أميرة كامل ابراهيم، أ. هشام عبد الله منصور"
+    },
+    {
+      "title": "Building an Open-Source Extended Detection and Response (XDR) Platform Using Wazuh, ELK, Zeek, TheHive, and Cortex",
+      "department": "SWE",
+      "supervisor": "د. نهلة مرتضى أحمد",
+      "committee": "أ. زينب الحسن عيسى، د. محمد خضر محمد نور، د. يحيى عبد الله محمد، أ. هشام عبد الله منصور"
+    },
+
+    {
+      "title": "AI-powered Chatbot for Tourism Website",
+      "department": "CS",
+      "supervisor": "د. وفاء فيصل",
+      "committee": ""
+    },
+    {
+      "title": "GIVMORE: A Digital Platform for Facilitating and Managing Local Community Donations",
+      "department": "CS",
+      "supervisor": "د. ناظم عثمان",
+      "committee": ""
+    },
+    {
+      "title": "Automated Scientific Paper Classification Using Deep Learning",
+      "department": "CS",
+      "supervisor": "د. شذى",
+      "committee": ""
+    },
+    {
+      "title": "Phishing Email Detection Using Machine Learning",
+      "department": "CS",
+      "supervisor": "د. محسن",
+      "committee": ""
+    },
+    {
+      "title": "تطوير نموذج أولي لهوية رقمية للأفراد",
+      "department": "CS",
+      "supervisor": "د. يحيى عبدالله",
+      "committee": ""
+    },
+    {
+      "title": "Mobile Application for Automotive Workshop Marketing and Service Management",
+      "department": "CS",
+      "supervisor": "د. هلا صالح",
+      "committee": ""
+    },
+    {
+      "title": "تطبيق ومنصة «صلح لي» لربط الحرفيين والفنيين المحليين بأصحاب المنازل في بيئة رقمية شاملة",
+      "department": "CS",
+      "supervisor": "أ. فاروق الشيخ",
+      "committee": ""
+    },
+    {
+      "title": "نظام إدارة ومتابعة لمساقي مثاني ومعارج بمقرأة النور الإلكترونية",
+      "department": "CS",
+      "supervisor": "د. هند الأمين",
+      "committee": ""
+    },
+    {
+      "title": "مرشد أكاديمي ذكي للطلاب الجامعيين",
+      "department": "CS",
+      "supervisor": "د. وليد",
+      "committee": ""
+    },
+    {
+      "title": "A Framework for Building Domain-Specific Conversational AI Agents",
+      "department": "CS",
+      "supervisor": "د. محمد عوض",
+      "committee": ""
+    },
+    {
+      "title": "نظام ربط إلكتروني لبنوك الدم في السودان",
+      "department": "CS",
+      "supervisor": "أ. ابتهال",
+      "committee": ""
+    },
+    {
+      "title": "نظام معلومات لإدارة ورعاية الأطفال فاقدي السند",
+      "department": "CS",
+      "supervisor": "أ. سمية",
+      "committee": ""
+    },
+
+    {
+      "title": "تحليل ملفات الأحداث (Logs) باستخدام الذكاء الاصطناعي",
+      "department": "NET",
+      "supervisor": "أ. ديجي عبادة",
+      "committee": ""
+    },
+    {
+      "title": "إدارة الشبكة المحلية",
+      "department": "NET",
+      "supervisor": "أ. ديجي عبادة",
+      "committee": ""
+    },
+    {
+      "title": "نظام توصية سينمائي",
+      "department": "NET",
+      "supervisor": "د. هلا صالح",
+      "committee": ""
+    },
+    {
+      "title": "Design and Implementation of Relations and Training Management System for SUST",
+      "department": "NET",
+      "supervisor": "أ. انتصار الحاج",
+      "committee": ""
+    },
+    {
+      "title": "تطبيق تعليمي تفاعلي لتعليم أحكام التجويد للقرآن الكريم على نظام أندرويد",
+      "department": "NET",
+      "supervisor": "أ. أمل حسن",
+      "committee": ""
+    },
+    {
+      "title": "P2P Messaging Mobile Application",
+      "department": "NET",
+      "supervisor": "أ. زينب يس",
+      "committee": ""
+    },
+    {
+      "title": "Automated system for checking network readiness for transition to IPv6",
+      "department": "NET",
+      "supervisor": "أ. انتصار الحاج",
+      "committee": ""
+    },
+    {
+      "title": "Design and Implementation of a Firewall Using pfSense on a Laptop",
+      "department": "NET",
+      "supervisor": "أ. زينب يس",
+      "committee": ""
+    },
+    {
+      "title": "Digital E-Invoicing and Tax Compliance Platform for the Sudan Taxation Chamber (STC)",
+      "department": "NET",
+      "supervisor": "أ. علي الأمين",
+      "committee": ""
+    },
+    {
+      "title": "منصة شاحن لربط سائقي الشاحنات",
+      "department": "NET",
+      "supervisor": "أ. مويه",
+      "committee": ""
+    },
+    {
+      "title": "An interactive educational platform to learn network protocols using reverse lab — EduNet",
+      "department": "NET",
+      "supervisor": "أ. مروة الطيب",
+      "committee": ""
+    }
+  ]
+}

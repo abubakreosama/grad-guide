@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graduation Projects</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Graduation Projects</h1>
+      <p class="subtitle">CCSIT &middot; 019</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Downloads -->
+    <section class="card" aria-labelledby="downloads-heading">
+      <h2 id="downloads-heading">Downloads</h2>
+      <ul class="downloads" id="downloads">
+        <!-- filled from data.json -->
+      </ul>
+    </section>
+
+    <!-- Projects table -->
+    <section class="card" aria-labelledby="projects-heading">
+      <div class="section-head">
+        <h2 id="projects-heading">Projects</h2>
+        <div class="filters">
+          <select id="dept-filter" class="select" aria-label="Filter by department">
+            <option value="">All departments</option>
+          </select>
+          <input
+            type="search"
+            id="search"
+            class="search"
+            placeholder="Search title, supervisor, committee…"
+            aria-label="Search projects"
+          />
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table id="projects-table">
+          <thead>
+            <tr>
+              <th scope="col">العنوان</th>
+              <th scope="col">القسم</th>
+              <th scope="col">المشرف</th>
+              <th scope="col">اللجنة</th>
+            </tr>
+          </thead>
+          <tbody id="projects-body">
+            <!-- filled from data.json -->
+          </tbody>
+        </table>
+      </div>
+      <p class="empty" id="empty-state" hidden>No projects match your search.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Last updated <span id="updated">—</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
