@@ -1,54 +1,54 @@
 {
   "updated": "2026-06-30",
   "downloads": [
-    { "label": "دليل كتابة فصل المنهجية. أ/فاروق", "href": "files/Methodology Guide (AR).pdf" },
-    { "label": "IS Projects", "href": "files/IS Graduation Projects.pdf" },
-    { "label": "IT Projects", "href": "files/IT Graduation Projects.pdf" },
-    { "label": "SWE Projects", "href": "files/SWE Graduation Projects.pdf" },
-    { "label": "CS Projects", "href": "files/CS Graduation Projects.pdf" },
-    { "label": "NET Projects", "href": "files/NET Graduation Projects.pdf" },
-    { "label": "Proposal Template", "href": "files/Proposal Template.pdf" },
-    { "label": "دليل التقرير", "href": "files/Final Report Guidelines.pdf" },
+    { "label": "دليل كتابة فصل المنهجية. أ/فاروق", "href": "https://drive.google.com/file/d/1vUzMtYQqdGOTacVuOBJf25RgB1HlxMwA/view?usp=drive_link" },
+    { "label": "مشاريع نظم", "href": "https://drive.google.com/file/d/1zUKXQAR8_i9M_GbVEWxyroeAkXoN_gdT/view?usp=drive_link" },
+    { "label": "مشاريع تقانة", "href": "https://drive.google.com/file/d/1LjSBDTn4lmE5_Dm7Be4SBZy_oSnJZTWM/view?usp=drive_link" },
+    { "label": "مشاريع برمجيات", "href": "https://drive.google.com/file/d/1_VrV03UyW7HQxEaskQSS_vIMTLTWEDuZ/view?usp=drive_link" },
+    { "label": "مشاريع علوم", "href": "https://drive.google.com/file/d/1qcIjQH7_QzAPe5TkIrcMkfL_HRQgWeJk/view?usp=drive_link" },
+    { "label": "مشاريع شبكات", "href": "https://drive.google.com/file/d/1PcboBcD9uOEWHfoKV-CfTtvaYMBCl_hQ/view?usp=drive_link" },
+    { "label": "دليل المقترح", "href": "https://drive.google.com/file/d/1L-B4KpATYTc8XHbMONkodWmiywoVBSkD/view?usp=drive_link" },
+    { "label": "دليل التقرير", "href": "https://drive.google.com/file/d/1PseXhHMhwqwsCZXNCJvr4RWdIa-YpPCI/view?usp=drive_link" },
     { "label": "محاضرة كتابة المقترح الجزء الأول", "href": "https://drive.google.com/file/d/1Xwi1unY3aWTHe5zfTbmVRJv31s5J1b_9/view?usp=drive_link" },
     { "label": "محاضرة كتابة المقترح الجزء الثاني", "href": "https://drive.google.com/file/d/1SLOCSdV1r74QkxG2d5aV9Wl4KiWwvM8n/view?usp=drive_link" },
-    { "label": "المناقشات و كيفية تقييم المشاريع", "href": "files/FinalDiscussions Dr Ghada.pdf" }
+    { "label": "المناقشات و كيفية تقييم المشاريع", "href": "https://drive.google.com/file/d/1FZ4N-5FMP4QLqfh-1wkx58e0wZrOu3MF/view?usp=drive_link" }
   ],
   "reports": [
     {
       "label": "A Platform for Building Domain Specific Conversational AI Agents",
-      "href": "files/reports/A Platform for Building Domain Specific Conversational AI Agents.pdf"
+      "href": "https://drive.google.com/file/d/1-x1azsQd209A6cAC-ZlBacf9PsJYFyWy/view?usp=drive_link"
     },
     {
       "label": "AI-Based Building Damage Assessment in Post War Sudan Using Deep Learning and Remote Sensing",
-      "href": "files/reports/AI Based Building Damage Assessment in Post War Sudan Using Deep Learning and Remote Sensing.pdf"
+      "href": "https://drive.google.com/file/d/1SJ1hZ9MP74ZQ4IJOPG0hKAdd1F89xy8B/view?usp=drive_link"
     },
     {
       "label": "A Unified Online Payment Integration Platform",
-      "href": "files/reports/A_Unified_Online_Payment_Integration_Platform.pdf"
+      "href": "https://drive.google.com/file/d/15YnBCkbKFxdKtTZDkPFhyLLGopTYhnz1/view?usp=drive_link"
     },
     {
       "label": "Unified Digital Platform for Travel Agencies and Flight Offers in Sudan (AirBridgeSD)",
-      "href": "files/reports/Design and Development of a Unified Digital Platform for Travel Agencies and Flight Offers in Sudan (AirBridgeSD) (1).pdf"
+      "href": "https://drive.google.com/file/d/1BWWqOev9Toj06x0BWNvxAzmTmQVp3flO/view?usp=drive_link"
     },
     {
       "label": "Digital E-Invoicing and Tax Compliance Platform (STC)",
-      "href": "files/reports/Digital E-invoicing and Tax Compliance Platform Prototype for the Sudan Taxation Chamber (STC).pdf"
+      "href": "https://drive.google.com/file/d/1M9rCaE_cjwLd9JLQBzkZHfjeH8_Zj80X/view?usp=drive_link"
     },
     {
-      "label": "Shahin Platform: Truck Rental and Tracking",
-      "href": "files/reports/Shahin Platform Truck Rental and Tracking.pdf"
+      "label": "منصة شاحن لتأجير وتتبع الشاحنات",
+      "href": "https://drive.google.com/file/d/1GzPiMFWGNnDEPUHWKte72HrWn1YLjcvJ/view?usp=drive_link"
     },
     {
-      "label": "Solar Energy Platform",
-      "href": "files/reports/SolarEnergy Platform.pdf"
+      "label": "تطوير منصة إلكترونية لربط وكلاءوفنيي الطاقة الشمسية بالعملاء في ولايةالخرطوم",
+      "href": "https://drive.google.com/file/d/1HfkA23YqVUfJeOhvBkXbzfOSnnaINaPZ/view?usp=drive_link"
     },
     {
       "label": "نظام ربط إلكتروني لبنوك الدم في السودان",
-      "href": "files/reports/bloodbank.pdf"
+      "href": "https://drive.google.com/file/d/1HQSEs8ppbey24R_oYxsWR_n0VpYNCAs6/view?usp=drive_link"
     },
     {
       "label": "نظام إدارة ومتابعة لمساقي مثاني ومعارج بمقرأة النور الإلكترونية",
-      "href": "files/reports/mathani.pdf"
+      "href": "https://drive.google.com/file/d/1XubN2WNhJworyYwCYjAvHtox6cv79045/view?usp=drive_link"
     }
   ],
   "projects": [

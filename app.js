@@ -32,7 +32,7 @@ function renderDownloads(downloads) {
   ul.innerHTML = downloads
     .map(
       (d) =>
-        `<li><a href="${escapeAttr(encodeURI(d.href))}" download>${escapeHtml(d.label)}</a></li>`
+        `<li><a href="${escapeAttr(encodeURI(d.href))}" ${anchorAttrs(d.href)}>${escapeHtml(d.label)}</a></li>`
     )
     .join("");
 }
@@ -48,10 +48,17 @@ function renderReports(reports) {
       (r) =>
         `<li class="report-item">` +
         `<span class="report-title" dir="auto">${escapeHtml(r.label)}</span>` +
-        `<a class="report-link" href="${escapeAttr(encodeURI(r.href))}" download>Download PDF</a>` +
+        `<a class="report-link" href="${escapeAttr(encodeURI(r.href))}" ${anchorAttrs(r.href)}>Download PDF</a>` +
         `</li>`
     )
     .join("");
+}
+
+// Google Drive/HTTP links open in a new tab; local file paths keep the download attr.
+function anchorAttrs(href) {
+  return /^https?:\/\//i.test(href || "")
+    ? `target="_blank" rel="noopener"`
+    : `download`;
 }
 
 let allRows = [];

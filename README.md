@@ -7,12 +7,29 @@ with a few downloadable files. No build step.
 
 Everything lives in **`data.json`**:
 
-- `downloads` — buttons that link to files in the `files/` folder
+- `downloads` — buttons that link to files in the `files/` folder or Google Drive
+- `reports` — the Past Reports list, same link style as `downloads`
 - `projects` — table rows; leave `committee` as `""` and it shows `—`
 - `updated` — the date shown in the footer
 
-Drop your actual files into `files/` and make sure the names match the `href`
-values in `data.json`.
+## Links (local files vs Google Drive)
+
+Any `href` that starts with `http://` or `https://` opens in a new tab —
+this is how Google Drive links work today. Local paths like
+`files/foo.pdf` keep the browser download behaviour.
+
+To use a Google Drive file: open it in Drive → **Share → Copy link** and paste
+it into the `href` field, e.g.:
+
+```json
+{
+  "label": "دليل التقرير",
+  "href": "https://drive.google.com/file/d/1Xwi1unY3aWTHe5zfTbmVRJv31s5J1b_9/view?usp=drive_link"
+}
+```
+
+The site is now fully Drive-ready: when you switch an entry to a Drive URL,
+no other change is needed.
 
 ## Run locally
 
