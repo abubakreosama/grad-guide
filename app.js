@@ -16,6 +16,7 @@ async function load() {
   }
 
   renderDownloads(data.downloads || []);
+  renderReports(data.reports || []);
   renderProjects(data.projects || []);
   if (data.updated) {
     document.getElementById("updated").textContent = data.updated;
@@ -23,7 +24,7 @@ async function load() {
 }
 
 function renderDownloads(downloads) {
-  const ul = document.getElementById("downloads");
+  const ul = document.getElementById("downloads-list");
   if (!downloads.length) {
     ul.innerHTML = `<li class="muted">No files available.</li>`;
     return;
@@ -32,6 +33,23 @@ function renderDownloads(downloads) {
     .map(
       (d) =>
         `<li><a href="${escapeAttr(encodeURI(d.href))}" download>${escapeHtml(d.label)}</a></li>`
+    )
+    .join("");
+}
+
+function renderReports(reports) {
+  const ul = document.getElementById("reports-list");
+  if (!reports.length) {
+    ul.innerHTML = `<li class="muted">No reports available.</li>`;
+    return;
+  }
+  ul.innerHTML = reports
+    .map(
+      (r) =>
+        `<li class="report-item">` +
+        `<span class="report-title" dir="auto">${escapeHtml(r.label)}</span>` +
+        `<a class="report-link" href="${escapeAttr(encodeURI(r.href))}" download>Download PDF</a>` +
+        `</li>`
     )
     .join("");
 }

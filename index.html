@@ -14,19 +14,35 @@
     </div>
   </header>
 
+  <nav class="site-nav" aria-label="Sections">
+    <div class="container nav-links">
+      <a href="#downloads">Downloads (ملفات مهمة)</a>
+      <a href="#reports">Past Reports (تقارير سابقة)</a>
+      <a href="#projects">Projects (المشاريع)</a>
+    </div>
+  </nav>
+
   <main class="container">
     <!-- Downloads -->
-    <section class="card" aria-labelledby="downloads-heading">
-      <h2 id="downloads-heading">Downloads</h2>
-      <ul class="downloads" id="downloads">
+    <section class="card" id="downloads" aria-labelledby="downloads-heading">
+      <h2 id="downloads-heading">Downloads (ملفات مهمة)</h2>
+      <ul class="downloads" id="downloads-list">
+        <!-- filled from data.json -->
+      </ul>
+    </section>
+
+    <!-- Past reports -->
+    <section class="card" id="reports" aria-labelledby="reports-heading">
+      <h2 id="reports-heading">Past Reports (تقارير سابقة)</h2>
+      <ul class="report-list" id="reports-list">
         <!-- filled from data.json -->
       </ul>
     </section>
 
     <!-- Projects table -->
-    <section class="card" aria-labelledby="projects-heading">
+    <section class="card" id="projects" aria-labelledby="projects-heading">
       <div class="section-head">
-        <h2 id="projects-heading">Projects</h2>
+        <h2 id="projects-heading">Projects (المشاريع)</h2>
         <div class="filters">
           <select id="dept-filter" class="select" aria-label="Filter by department">
             <option value="">All departments</option>

@@ -13,6 +13,44 @@
     { "label": "محاضرة كتابة المقترح الجزء الثاني", "href": "https://drive.google.com/file/d/1SLOCSdV1r74QkxG2d5aV9Wl4KiWwvM8n/view?usp=drive_link" },
     { "label": "المناقشات و كيفية تقييم المشاريع", "href": "files/FinalDiscussions Dr Ghada.pdf" }
   ],
+  "reports": [
+    {
+      "label": "A Platform for Building Domain Specific Conversational AI Agents",
+      "href": "files/reports/A Platform for Building Domain Specific Conversational AI Agents.pdf"
+    },
+    {
+      "label": "AI-Based Building Damage Assessment in Post War Sudan Using Deep Learning and Remote Sensing",
+      "href": "files/reports/AI Based Building Damage Assessment in Post War Sudan Using Deep Learning and Remote Sensing.pdf"
+    },
+    {
+      "label": "A Unified Online Payment Integration Platform",
+      "href": "files/reports/A_Unified_Online_Payment_Integration_Platform.pdf"
+    },
+    {
+      "label": "Unified Digital Platform for Travel Agencies and Flight Offers in Sudan (AirBridgeSD)",
+      "href": "files/reports/Design and Development of a Unified Digital Platform for Travel Agencies and Flight Offers in Sudan (AirBridgeSD) (1).pdf"
+    },
+    {
+      "label": "Digital E-Invoicing and Tax Compliance Platform (STC)",
+      "href": "files/reports/Digital E-invoicing and Tax Compliance Platform Prototype for the Sudan Taxation Chamber (STC).pdf"
+    },
+    {
+      "label": "Shahin Platform: Truck Rental and Tracking",
+      "href": "files/reports/Shahin Platform Truck Rental and Tracking.pdf"
+    },
+    {
+      "label": "Solar Energy Platform",
+      "href": "files/reports/SolarEnergy Platform.pdf"
+    },
+    {
+      "label": "نظام ربط إلكتروني لبنوك الدم في السودان",
+      "href": "files/reports/bloodbank.pdf"
+    },
+    {
+      "label": "نظام إدارة ومتابعة لمساقي مثاني ومعارج بمقرأة النور الإلكترونية",
+      "href": "files/reports/mathani.pdf"
+    }
+  ],
   "projects": [
     {
       "title": "Volux — Web-based volunteering platform to support Sudan's post-war recovery",

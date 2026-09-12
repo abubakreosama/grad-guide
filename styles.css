@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -46,6 +50,40 @@ body {
   margin: 6px 0 0;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+/* Nav */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+}
+.nav-links {
+  display: flex;
+  gap: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow-x: auto;
+}
+.nav-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.nav-links a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+section[id] {
+  scroll-margin-top: 60px;
 }
 
 /* Cards */
@@ -101,6 +139,54 @@ body {
   border-color: var(--accent);
 }
 .downloads a::before {
+  content: "↓";
+  font-weight: 700;
+}
+
+/* Past reports */
+.report-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.report-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 6px;
+  border-bottom: 1px solid var(--border);
+}
+.report-item:last-child {
+  border-bottom: none;
+}
+.report-item:hover {
+  background: var(--accent-soft);
+}
+.report-title {
+  font-size: 0.93rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.report-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  transition: border-color 0.15s, background 0.15s;
+}
+.report-link:hover {
+  border-color: var(--accent);
+}
+.report-link::before {
   content: "↓";
   font-weight: 700;
 }
@@ -225,6 +311,13 @@ td.muted {
   .select {
     max-width: 100%;
     flex: 1 1 100%;
+  }
+
+  .report-item {
+    flex-wrap: wrap;
+  }
+  .report-title {
+    flex: 1 1 200px;
   }
 
   table,
