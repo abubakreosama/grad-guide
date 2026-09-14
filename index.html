@@ -3,72 +3,118 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Graduation Projects</title>
+  <meta name="description" content="Graduation projects, guides and past reports — CCSIT 019." />
+  <meta name="theme-color" content="#0b0f16" />
+  <title>Graduation Projects · CCSIT 019</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / hero -->
   <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">🎓</span>
+        <div>
+          <h1>Graduation Projects</h1>
+          <p class="subtitle">CCSIT &middot; Batch 019</p>
+        </div>
+      </div>
+
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme" title="Switch theme">
+        <span class="theme-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+
     <div class="container">
-      <h1>Graduation Projects</h1>
-      <p class="subtitle">CCSIT &middot; 019</p>
+      <ul class="stats" id="stats">
+        <li><b id="stat-projects">—</b><span>Projects</span></li>
+        <li><b id="stat-reports">—</b><span>Past reports</span></li>
+        <li><b id="stat-files">—</b><span>Guides &amp; files</span></li>
+      </ul>
     </div>
   </header>
 
+  <!-- Nav -->
   <nav class="site-nav" aria-label="Sections">
     <div class="container nav-links">
-      <a href="#downloads">Downloads (ملفات مهمة)</a>
-      <a href="#reports">Past Reports (تقارير سابقة)</a>
-      <a href="#projects">Projects (المشاريع)</a>
+      <a href="#downloads"><span class="nav-ico" aria-hidden="true">📁</span>Downloads <i>ملفات مهمة</i></a>
+      <a href="#reports"><span class="nav-ico" aria-hidden="true">📄</span>Past Reports <i>تقارير سابقة</i></a>
+      <a href="#projects"><span class="nav-ico" aria-hidden="true">🗂️</span>Projects <i>المشاريع</i></a>
     </div>
   </nav>
 
-  <main class="container">
+  <main class="container" id="main">
     <!-- Downloads -->
     <section class="card" id="downloads" aria-labelledby="downloads-heading">
-      <h2 id="downloads-heading">Downloads (ملفات مهمة)</h2>
+      <div class="section-head">
+        <div>
+          <h2 id="downloads-heading">Downloads <i class="ar">ملفات مهمة</i></h2>
+          <p class="section-note">Guides, lecture slides and department project lists.</p>
+        </div>
+      </div>
       <ul class="downloads" id="downloads-list">
-        <!-- filled from data.json -->
+        <li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li>
       </ul>
     </section>
 
     <!-- Past reports -->
     <section class="card" id="reports" aria-labelledby="reports-heading">
-      <h2 id="reports-heading">Past Reports (تقارير سابقة)</h2>
-      <ul class="report-list" id="reports-list">
-        <!-- filled from data.json -->
-      </ul>
-    </section>
-
-    <!-- Projects table -->
-    <section class="card" id="projects" aria-labelledby="projects-heading">
       <div class="section-head">
-        <h2 id="projects-heading">Projects (المشاريع)</h2>
+        <div>
+          <h2 id="reports-heading">Past Reports <i class="ar">تقارير سابقة</i></h2>
+          <p class="section-note">Full reports from previous batches — useful as writing references.</p>
+        </div>
         <div class="filters">
-          <select id="dept-filter" class="select" aria-label="Filter by department">
-            <option value="">All departments</option>
-          </select>
-          <input
-            type="search"
-            id="search"
-            class="search"
-            placeholder="Search title, supervisor, committee…"
-            aria-label="Search projects"
-          />
+          <div class="field">
+            <span class="field-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="reports-search" class="input" placeholder="Search reports…" aria-label="Search past reports" />
+          </div>
         </div>
       </div>
+      <ul class="report-list" id="reports-list">
+        <li class="skeleton"></li><li class="skeleton"></li><li class="skeleton"></li>
+      </ul>
+      <p class="empty" id="reports-empty" hidden>No reports match your search.</p>
+    </section>
+
+    <!-- Projects -->
+    <section class="card" id="projects" aria-labelledby="projects-heading">
+      <div class="section-head">
+        <div>
+          <h2 id="projects-heading">Projects <i class="ar">المشاريع</i></h2>
+          <p class="section-note">Titles, supervisors and discussion committees.</p>
+        </div>
+        <div class="filters">
+          <div class="field">
+            <span class="field-ico" aria-hidden="true">🔍</span>
+            <input type="search" id="search" class="input" placeholder="Search title, supervisor, committee…" aria-label="Search projects" />
+          </div>
+        </div>
+      </div>
+
+      <div class="chips" id="dept-filter" role="group" aria-label="Filter by department"></div>
+
+      <p class="result-count" id="result-count" aria-live="polite"></p>
 
       <div class="table-wrap">
         <table id="projects-table">
           <thead>
             <tr>
-              <th scope="col">العنوان</th>
-              <th scope="col">القسم</th>
-              <th scope="col">المشرف</th>
-              <th scope="col">اللجنة</th>
+              <th scope="col" class="col-num">#</th>
+              <th scope="col">العنوان <span class="th-en">Title</span></th>
+              <th scope="col">القسم <span class="th-en">Dept.</span></th>
+              <th scope="col">المشرف <span class="th-en">Supervisor</span></th>
+              <th scope="col">اللجنة <span class="th-en">Committee</span></th>
             </tr>
           </thead>
           <tbody id="projects-body">
-            <!-- filled from data.json -->
+            <tr><td colspan="5"><span class="skeleton"></span></td></tr>
           </tbody>
         </table>
       </div>
@@ -81,6 +127,8 @@
       <p>Last updated <span id="updated">—</span></p>
     </div>
   </footer>
+
+  <button id="to-top" class="to-top" type="button" aria-label="Back to top" hidden>↑</button>
 
   <script src="app.js"></script>
 </body>

@@ -1,17 +1,50 @@
 {
-  "updated": "2026-06-30",
+  "updated": "2026-09-14",
   "downloads": [
-    { "label": "دليل كتابة فصل المنهجية. أ/فاروق", "href": "https://drive.google.com/file/d/1vUzMtYQqdGOTacVuOBJf25RgB1HlxMwA/view?usp=drive_link" },
-    { "label": "مشاريع نظم", "href": "https://drive.google.com/file/d/1zUKXQAR8_i9M_GbVEWxyroeAkXoN_gdT/view?usp=drive_link" },
-    { "label": "مشاريع تقانة", "href": "https://drive.google.com/file/d/1LjSBDTn4lmE5_Dm7Be4SBZy_oSnJZTWM/view?usp=drive_link" },
-    { "label": "مشاريع برمجيات", "href": "https://drive.google.com/file/d/1_VrV03UyW7HQxEaskQSS_vIMTLTWEDuZ/view?usp=drive_link" },
-    { "label": "مشاريع علوم", "href": "https://drive.google.com/file/d/1qcIjQH7_QzAPe5TkIrcMkfL_HRQgWeJk/view?usp=drive_link" },
-    { "label": "مشاريع شبكات", "href": "https://drive.google.com/file/d/1PcboBcD9uOEWHfoKV-CfTtvaYMBCl_hQ/view?usp=drive_link" },
-    { "label": "دليل المقترح", "href": "https://drive.google.com/file/d/1L-B4KpATYTc8XHbMONkodWmiywoVBSkD/view?usp=drive_link" },
-    { "label": "دليل التقرير", "href": "https://drive.google.com/file/d/1PseXhHMhwqwsCZXNCJvr4RWdIa-YpPCI/view?usp=drive_link" },
-    { "label": "محاضرة كتابة المقترح الجزء الأول", "href": "https://drive.google.com/file/d/1Xwi1unY3aWTHe5zfTbmVRJv31s5J1b_9/view?usp=drive_link" },
-    { "label": "محاضرة كتابة المقترح الجزء الثاني", "href": "https://drive.google.com/file/d/1SLOCSdV1r74QkxG2d5aV9Wl4KiWwvM8n/view?usp=drive_link" },
-    { "label": "المناقشات و كيفية تقييم المشاريع", "href": "https://drive.google.com/file/d/1FZ4N-5FMP4QLqfh-1wkx58e0wZrOu3MF/view?usp=drive_link" }
+    {
+      "label": "دليل كتابة فصل المنهجية. أ/فاروق",
+      "href": "https://drive.google.com/file/d/1vUzMtYQqdGOTacVuOBJf25RgB1HlxMwA/view?usp=drive_link"
+    },
+    {
+      "label": "مشاريع نظم",
+      "href": "https://drive.google.com/file/d/1zUKXQAR8_i9M_GbVEWxyroeAkXoN_gdT/view?usp=drive_link"
+    },
+    {
+      "label": "مشاريع تقانة",
+      "href": "https://drive.google.com/file/d/1LjSBDTn4lmE5_Dm7Be4SBZy_oSnJZTWM/view?usp=drive_link"
+    },
+    {
+      "label": "مشاريع برمجيات",
+      "href": "https://drive.google.com/file/d/1_VrV03UyW7HQxEaskQSS_vIMTLTWEDuZ/view?usp=drive_link"
+    },
+    {
+      "label": "مشاريع علوم",
+      "href": "https://drive.google.com/file/d/1qcIjQH7_QzAPe5TkIrcMkfL_HRQgWeJk/view?usp=drive_link"
+    },
+    {
+      "label": "مشاريع شبكات",
+      "href": "https://drive.google.com/file/d/1PcboBcD9uOEWHfoKV-CfTtvaYMBCl_hQ/view?usp=drive_link"
+    },
+    {
+      "label": "دليل المقترح",
+      "href": "https://drive.google.com/file/d/1L-B4KpATYTc8XHbMONkodWmiywoVBSkD/view?usp=drive_link"
+    },
+    {
+      "label": "دليل التقرير",
+      "href": "https://drive.google.com/file/d/1PseXhHMhwqwsCZXNCJvr4RWdIa-YpPCI/view?usp=drive_link"
+    },
+    {
+      "label": "محاضرة كتابة المقترح الجزء الأول",
+      "href": "https://drive.google.com/file/d/1Xwi1unY3aWTHe5zfTbmVRJv31s5J1b_9/view?usp=drive_link"
+    },
+    {
+      "label": "محاضرة كتابة المقترح الجزء الثاني",
+      "href": "https://drive.google.com/file/d/1SLOCSdV1r74QkxG2d5aV9Wl4KiWwvM8n/view?usp=drive_link"
+    },
+    {
+      "label": "المناقشات و كيفية تقييم المشاريع",
+      "href": "https://drive.google.com/file/d/1FZ4N-5FMP4QLqfh-1wkx58e0wZrOu3MF/view?usp=drive_link"
+    }
   ],
   "reports": [
     {
@@ -49,6 +82,14 @@
     {
       "label": "نظام إدارة ومتابعة لمساقي مثاني ومعارج بمقرأة النور الإلكترونية",
       "href": "https://drive.google.com/file/d/1XubN2WNhJworyYwCYjAvHtox6cv79045/view?usp=drive_link"
+    },
+    {
+      "label": "نظام التصحيح الآلي للإجابات النصية باللغة العربية باستخدام تقنيات معالجة اللغات الطبيعية",
+      "href": "https://drive.google.com/file/d/1_bH92BhSyH9zSfhHNkMPXUWJVulpl3Z2/view?usp=drive_link"
+    },
+    {
+      "label": "Facial Recognition System for Missing Persons Identification",
+      "href": "https://drive.google.com/file/d/1KPzDipN5o2mvLPpCX46KoN_0ywe5Yybb/view?usp=drive_link"
     }
   ],
   "projects": [
@@ -94,7 +135,6 @@
       "supervisor": "د. الروضة عبد اللطيف",
       "committee": "د. وفاء علي، د. فاروق عثمان"
     },
-
     {
       "title": "تطوير متجر إلكتروني بنظام التقسيط للطلاب الجامعيين",
       "department": "IT",
@@ -173,7 +213,6 @@
       "supervisor": "أ. سارة احمد",
       "committee": "أ. سالي حسن"
     },
-
     {
       "title": "Event and Conference Management Platform",
       "department": "SWE",
@@ -246,7 +285,6 @@
       "supervisor": "د. نهلة مرتضى أحمد",
       "committee": "أ. زينب الحسن عيسى، د. محمد خضر محمد نور، د. يحيى عبد الله محمد، أ. هشام عبد الله منصور"
     },
-
     {
       "title": "AI-powered Chatbot for Tourism Website",
       "department": "CS",
@@ -319,7 +357,6 @@
       "supervisor": "أ. سمية",
       "committee": ""
     },
-
     {
       "title": "تحليل ملفات الأحداث (Logs) باستخدام الذكاء الاصطناعي",
       "department": "NET",
